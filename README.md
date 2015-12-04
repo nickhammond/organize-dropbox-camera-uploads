@@ -5,6 +5,10 @@ The default functionality of the Dropbox iOS application is to upload all of you
 to browse through them anywhere, desktop or web. This script simply moves your moves your files into a simple monthly
 folder structure for easier browsing.
 
+You'll need to create an access token at [developers.dropbox.com](http://developers.dropbox.com). Copy
+`.env.example` to `.env` and then add your `API_KEY` to `.env`. Once you've configured that you can
+run the script.
+
 ``` shell
 $ bundle install && bundle exec ruby ruby.rb
 ```
