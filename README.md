@@ -1,8 +1,8 @@
 # Organize your Camera Uploads on Dropbox
 
 The default functionality of the Dropbox iOS application is to upload all of your photos into the
-'Camera Uploads' folder. One you have more than a couple hundred photos in there it makes it difficult
-to browse through them anywhere. This script simply moves your moves your files into a simple monthly
+'Camera Uploads' folder. Once you have more than a couple hundred photos in there it makes it difficult
+to browse through them anywhere, desktop or web. This script simply moves your moves your files into a simple monthly
 folder structure for easier browsing.
 
 ``` shell
