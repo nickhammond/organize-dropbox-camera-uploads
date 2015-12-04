@@ -10,7 +10,7 @@ You'll need to create an access token at [developers.dropbox.com](http://develop
 run the script.
 
 ``` shell
-$ bundle install && bundle exec ruby ruby.rb
+$ bundle install && bundle exec ruby run.rb
 ```
 
 The output will be similar to the following:
