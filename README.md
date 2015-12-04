@@ -1,4 +1,4 @@
-# Organize your automatically uploaded iOS photos into YYYY-MM folders on Dropbox
+# Organize your Camera Uploads on Dropbox
 
 The default functionality of the Dropbox iOS application is to upload all of your photos into the
 'Camera Uploads' folder. One you have more than a couple hundred photos in there it makes it difficult
