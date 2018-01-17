@@ -17,13 +17,6 @@ uploads.each do |upload|
 
     new_folder = "#{ENV['UPLOADS']}/#{folder}"
 
-    begin
-      puts "Creating #{new_folder}"
-      dropbox.create_folder(new_folder)
-    rescue => e
-      raise e unless e.is_a?(Dropbox::ApiError) and e.message.match("conflict")
-    end
-
     filename = "#{new_folder}/#{upload.path_display.split("/").last}"
 
     puts "Moving #{upload.path_display} to #{filename}"
